@@ -2,7 +2,7 @@
 
 By YOUR NAME HERE
 
-Video overview: <URL HERE>
+Video overview: <https://youtu.be/zebwFSmUTro>
 
 ## Scope
 
@@ -32,40 +32,40 @@ In this section you should answer the following questions:
 
 * Which entities will you choose to represent in your database?
 To tell, it is a lot of them
- * users
- * status
- * story
- * image
- * song
- * reaction
- * comment
- * friend
- * conversation
- * calling
- * notifications
+ * Users
+ * Status
+ * Story
+ * Image
+ * Song
+ * Reaction
+ * Comment
+ * Friend
+ * Conversation
+ * Calling
+ * Notifications
 * What attributes will those entities have?
 For example the message entity
  * messages
-   1. message_id: identify for message
-   2. content inside of the message.
-   3. status: like 'seen', 'send', 'error-send'.
+  1. message_id: identify for message
+  2. content inside of the message.
+  3. status: like 'seen', 'send', 'error-send'.
  * to_message
-   1. from_user_id: the user id of the person who sending the message.
-   2. to_user_id: the user id of the person who receiving the message.
-   3. message_id: identify for message.
-   4. datetime: when the message is sending.
+  1. from_user_id: the user id of the person who sending the message.
+  2. to_user_id: the user id of the person who receiving the message.
+  3. message_id: identify for message.
+  4. datetime: when the message is sending.
 * Why did you choose the types you did?
  * messages
-   1. id: INT(PRIMARY KEY)
-   2. content: TEXT NOT NULL
-   3. status: TEXT NOT NULL CHECK("status" IN ('seen', 'send', 'error-send'))
+  1. id: INT(PRIMARY KEY)
+  2. content: TEXT NOT NULL
+  3. status: TEXT NOT NULL CHECK("status" IN ('seen', 'send', 'error-send'))
 * Why did you choose the constraints you did?
 Because sometime, I just want to processing the inforamtion that I need to, if it noise, there is so difficult to analyzing any data.
 
 ### Relationships
 
 In this section you should include your entity relationship diagram and describe the relationships between the entities in your database.
-![ER Diagram](ERDiagram.jpg)
+![ER Diagram](diagram.png)
 
 ## Optimizations
 
@@ -93,3 +93,18 @@ In this section you should answer the following questions:
 I think that it's so much simple than the original ones. Limits me about the time to run the code, time to insert although i try to not create so many indexes but it's slowdown the insert time. The search time may optimiz with indexes but to many nested queries and view combine together, it's still take a lot of time. My design are not precisely enough like the user_describe, it's should have more information. Or may be for users password, it's may have a better way to store and keep track of it. Or the same with message structure. Status limit the users to comment something like sticker or GIFs. Or story doesn't good enough when keep track of the time its upload. More shortcoming, but I'll try to improve this structure in the future
 * What might your database not be able to represent very well?
 I may say that because of its structure not optimizing enough and also by me who haven't have enough experience in this domain.
+
+## Mini Game
+BESIDE I INSERT SOME DATA THAT MIGHT YOU GET INTERSRTED TO. IT BASED ON THE IDEAOF FIFTYVIILAGE. I CREATE SMALL STORY ABOUT ALL MY TEDDY AND EACH OWN HAVE THEIR NAME, THEIR ABOUT 30 OF THEM BUT I CANNOT WRITE IT ALL TO THE INSERT BECAUSE I AM TOO LAZY, EACH ONE HAVE THEIR OWN ELEMENT MAGIC
+
+Hint: Youu should check all the post that exist in the database with two name in the question!
+
+* GUESS ELEMENT MAGIC OF:
+
+ 1. QUESTION 1: "ANH TRAU"
+-- A. FIRE ---- B. LIGHT ---- C. THUNDER ---- D. WATER
+
+ 2. QUESTION 2: "ANH BI"
+-- A. FIRE ---- B. LIGHT ---- C. THUNDER ---- D. WATER
+
+JUST A SMALL GAME FOR UNDERSTANDING MY STRUCTURE. THANKS ALL OF YOU GUYS!!! MOAHZ~~~
