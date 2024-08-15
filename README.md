@@ -44,6 +44,6 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/phamphuhoa-23/maurodesouza/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/phamphuhoa-23/phamphuhoa-23/output/snake.svg" alt="Snake animation" />
 
 ###
