@@ -11,6 +11,8 @@
 
 - 📫 How to reach me **phamhoa23us@gmail.com**
 
+<img src="https://raw.githubusercontent.com/PhamPhuHoa-23/PhamPhuHoa-23/output/snake.svg" alt="Snake animation" />
+
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
